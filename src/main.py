@@ -6,7 +6,7 @@ class Calculator:
     def sum(self, a: int, b: int) -> int:
         return a + b  
 
-    def restar(self, a: int, b: int) -> int:
+    def subtract(self, a: int, b: int) -> int: #De restar a substract
         return a - b  
 
     def multiply(self, a: int, b: int) -> int:
