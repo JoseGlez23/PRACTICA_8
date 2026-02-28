@@ -23,3 +23,8 @@ jobs:
       - name: Test with pytest # Ejecuta las pruebas utilizando pytest
         working-directory: src # Directorio donde se encuentran las pruebas
         run: pytest tests.py
+        
+        #Verificacion de codigo con ruff
+      - name: Check code with ruff 
+        working-directory: src
+        run: ruff check . 
